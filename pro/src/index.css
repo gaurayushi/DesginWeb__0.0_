@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  color: antiquewhite;
+}
+body{
+  background-color: black;
+}
+#taskList ::-webkit-scrollbar{
+display: none;
+}
+
+/*import InProgressTasks from "./TaskList/InProgressTasks";
+import CompletedTasks from "./TaskList/CompletedTasks";
+import TotalTasks from "./TaskList/TotalTasks";
+*/
